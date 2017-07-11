@@ -1,0 +1,30 @@
+{{> header }}
+
+
+	  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<header>
+	<a class="back-to-index" href="../index.html">&larr; back</a>
+</header>
+	<div class="container">
+    	<div class="row">
+      		<div class="two-half column" style="margin-top: 11%">
+        		<article>
+					<h1>{{ title }}</h1>
+						<div class="date">
+						{{#if date}}Published: {{ formatDate date 'DD MMM YYYY'  }}{{/if}}
+						</div>
+      				{{{ contents }}}
+      			</article>
+		 	</div>	
+      </div>
+    </div>
+ 
+
+{{> footer }}
+
+
+
+
+
+ 

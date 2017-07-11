@@ -1,0 +1,13 @@
+.DS_Store
+
+# Public directories
+public/
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Deployment
+deploy.sh

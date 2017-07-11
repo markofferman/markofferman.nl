@@ -1,0 +1,20 @@
+
+
+.back-to-index {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-left: 100px;
+  margin-top: 100px;
+  display: inline-block;
+  color: grey;
+}
+
+
+div.date {
+	display: block;
+	font-size: 1.23rem; line-height: 1.5em;
+	font-weight: bold;
+	color: grey;
+	margin-top: 5px; margin-bottom: 30px;
+}
+
