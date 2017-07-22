@@ -1,5 +1,6 @@
 var metalsmith = require('metalsmith');
 var collections = require('metalsmith-collections');
+var googleAnalytics = require('metalsmith-google-analytics');
 var markdown = require('metalsmith-markdown');
 var metallic = require('metalsmith-metallic');
 var drafts = require('metalsmith-drafts');
@@ -74,6 +75,7 @@ metalsmith(__dirname)
 			"layouts/index.html": true,
 		}
 	}))
+	.use(googleAnalytics('UD-Tracking-ID'))
 	.build(function (err) {
 		if (err) { 
 			console.log(err);
