@@ -1,13 +1,16 @@
 ---
 title: "About"
 draft: true
-blurb: "I am Mark Offerman. Young associate at a VC firm. Reggae and woman enthusiast. You have just arrived at his braindump. Try not to get lost.
+blurb: "I am Mark Offerman.  Reggae, technology and woman enthusiast.
 ---
 
 # ABOUT ME
 
 Hello, my name is Mark Offerman. I live in the Hague, NL.
 
-I am fascinated by advanced technologies and impact ventures.
+I like a lot of things and will start writing about my experiences here.
 
-Will write about my experiences here. 
+Test test test 
+
+
+Always be yourself. Unless you can be a pirate. Then always be a pirate.

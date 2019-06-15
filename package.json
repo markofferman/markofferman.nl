@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "descrition": "i-an-i is the website of Mark Offerman describing the life of a young vc and reggae",
-  "author": "Mark Offerman",
+  "author": "The Pirate",
   "dependencies": {
     "handlebars": "^4.0.8",
     "handlebars-helper-formatdate": "^1.0.0",

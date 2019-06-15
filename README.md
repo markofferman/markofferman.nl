@@ -1,10 +1,37 @@
 # markofferman.nl
 
-This is the back-end generator for my website. Build in the metalsmith framework, with a lot of help of people on the web.
 
-You can build download the source code and build the website locally with:
+## How it works
+
+The metalsmith framework builds an HTML site from markdown files. Modifying these files happens in src/.
+When you want to build the site, you run the make file
 
 ```
-$ npm start
+.
+├── LICENSE
+├── Makefile
+├── README.md
+├── assets
+├── build.js
+├── layouts
+├── node_modules
+├── package-lock.json
+├── package.json
+├── public
+└── src  
 ```
+
+
+## Serving locally:
+
+``` 
+$ make
+```
+
+
+## Deploying publicly:
+
+1. Create docker image 
+2. Push image to registry
+3. Update Kubernetes/Nomad to run the public folder (server from var/www)t
 

@@ -16,10 +16,10 @@ var watch = require('metalsmith-watch');
 metalsmith(__dirname)
 	.metadata({
 		site: {
-			name: 'MARK OFFERMAN',
+			name: 'THE PIRATE',
 			baseurl: 'http://markofferman.nl',
 			author: 'Mark Offerman',
-			description: 'website of Mark Offerman, a young VC associate, full-time nerd and self-proclaimed chef'
+			description: '.....'
 		}
 	})
 	.source('./src')
@@ -75,13 +75,12 @@ metalsmith(__dirname)
 			"layouts/index.html": true,
 		}
 	}))
-	.use(googleAnalytics('UD-Tracking-ID'))
+	// .use(googleAnalytics('UD-Tracking-ID'))
 	.build(function (err) {
-		if (err) { 
+		if (err) {
 			console.log(err);
 		}
 		else {
 			console.log('build succesfull!!');
 		}
 	});
-
