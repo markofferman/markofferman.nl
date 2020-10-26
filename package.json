@@ -5,7 +5,7 @@
   "descrition": "i-an-i is the website of Mark Offerman describing the life of a young vc and reggae",
   "author": "The Pirate",
   "dependencies": {
-    "handlebars": "^4.0.8",
+    "handlebars": "^4.5.3",
     "handlebars-helper-formatdate": "^1.0.0",
     "metalsmith": "^2.3.0",
     "metalsmith-assets": "^0.1.0",
